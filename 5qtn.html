@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sort</title>
+</head>
+<body>
+    <h1>Take two sorted array and merge them together so that the resultant array is also sorted
+    </h1>
+    <p id="result"></p>
+    <button onclick="run()">sort array</button>
+    <script>
+        function run(){
+            var a=[6,5,4,3,2,1];
+            var b=[7,8,10,9,12,11];
+            var c=a.concat(b);
+            c.sort();
+            document.getElementById("result").innerHTML = c;
+        }
+    </script>
+</body>
+</html>
